@@ -16,7 +16,7 @@
 		$text = 'Il censura territorio CENSURA di Jesolo si estende censura lungo la costa veneziana, su un territorio pianeggiante affacciato censura sul mare Adriatico e orlato dalla laguna di Jesolo censura (22 km²), dai fiumi Sile e Piave, e alle foci di questo 
         dall\'antistante laguna del CENSURA Mort. La valle di Dragojesolo CENSURA è, insieme a quella di Grassabò, censura la più estesa della laguna Nord di Venezia. La fascia censura costiera è bassa e sabbiosa, costituita da un\'ininterrotta spiaggia lunga circa 12 censura chilometri e di ampiezza CENSURA variabile tra i 30 e i 100 metri. Aggiungo del testo per verificare il funzionamento di strlen!';      
 
-        $badWord = $_GET['censor'];
+        $badWord = $_GET['censor']; 
         $censuredWord = str_ireplace($badWord, "***", $text);
 
 	?>
