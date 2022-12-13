@@ -25,5 +25,11 @@
 	<h1>Jesolo</h1>
     <div> <?php echo $text; ?> </div>
     <h3>Questo testo contiene <mark><?php echo strlen($text); ?></mark> caratteri</h3>
+
+    <form method="GET" action="">
+        <label for="censor">Seleziona la parola che vuoi censurare</label>
+        <input type="text" name="censor" id="censor" placeholder="Inserire...">
+        <button>Censura</button>
+    </form>
 </body>
 </html>
